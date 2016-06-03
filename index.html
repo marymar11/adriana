@@ -1,0 +1,163 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head> 
+<body> 
+
+
+
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>AGENDA</h1>
+	</div>
+   
+    	<center>
+	<table border="1">
+	<tr>
+	<td>
+	<fieldset>
+		<center><h1>Registra tu contacto</h1></center>
+	<div align="center">
+		<form name="registro">
+			<label>Correo Electronico:</label>
+			<input type="text" name="matricula" size="30"><br><p>
+			<label>Nombre:</label>
+			<input type="text" name="nombre" size="30"><br><p>
+			<label>Apellidos:</label>
+			<input type="text" name="apellidosp" size="30"><br><p>
+			<label>Direccion:</label>
+			<input type="text" name="direccion" size="30"><br><p>
+			<label>Telefono:</label>
+			<input type="text" name="telefono" size="30"><br><p>
+            <label>Codigo Postal:</label>
+			<input type="text" name="Codigo Postal" size="30"><br><p>
+			<label>Sexo:</label>
+			<select name="sexo">
+				<option select value="nada"></option>
+				<option select value="mujer">Mujer</option>
+				<option select value="hombre">Hombre</option>
+			</select>
+			<p>
+			<label>Dia</label>
+			<select name="Dia">
+				<option select value="0"></option>
+				<option select value="1">1</option>
+				<option select value="2">2</option>
+				<option select value="3">3</option>
+				<option select value="4">4</option>
+				<option select value="5">5</option>
+				<option select value="6">6</option>
+				<option select value="7">7</option>
+				<option select value="8">8</option>
+				<option select value="9">9</option>
+				<option select value="10">10</option>
+				<option select value="11">11</option>
+				<option select value="12">12</option>
+				<option select value="13">13</option>
+				<option select value="14">14</option>
+				<option select value="15">15</option>
+				<option select value="16">16</option>
+				<option select value="17">17</option>
+				<option select value="18">18</option>
+				<option select value="19">19</option>
+				<option select value="20">20</option>
+				<option select value="21">21</option>
+				<option select value="22">22</option>
+				<option select value="23">23</option>
+				<option select value="24">24</option>
+				<option select value="25">25</option>
+				<option select value="26">26</option>
+				<option select value="27">27</option>
+				<option select value="28">28</option>
+				<option select value="29">29</option>
+				<option select value="30">30</option>
+				<option select value="31">31</option>
+			</select>
+			<label>Mes</label>
+			<select name="Mes">
+				<option select value="0"></option>
+				<option select value="Enero">Enero</option>	
+				<option select value="Febrero">Febrero</option>	
+				<option select value="Marzo">Marzo</option>	
+				<option select value="Abril">Abril</option>	
+				<option select value="Mayo">Mayo</option>	
+				<option select value="Junio">Junio</option>	
+				<option select value="Julio">Julio</option>	
+				<option select value="Agosto">Agosto</option>	
+				<option select value="Septiembre">Septiembre</option>	
+				<option select value="Octubre">Octubre</option>	
+				<option select value="Noviembre">Noviembre</option>	
+				<option select value="Diciembre">Diciembre</option>	
+			</select>
+			<label>Year</label>
+			<select name="Year">
+				<option select value="0"></option>
+				<option select value="1998">1998</option>
+				<option select value="1999">1999</option>
+				<option select value="2000">2000</option>
+				<option select value="2001">2001</option>
+				<option select value="2002">2002</option>
+				<option select value="2003">2003</option>
+				<option select value="2004">2004</option>
+				<option select value="2005">2005</option>
+				<option select value="2007">2007</option>
+				<option select value="2008">2008</option>
+				<option select value="2009">2009</option>
+				<option select value="2010">2010</option>
+				<option select value="2011">2011</option>
+				<option select value="2012">2012</option>
+				<option select value="2013">2013</option>
+				<option select value="2014">2014</option>
+				<option select value="2015">2015</option>
+				<option select value="2016">2016</option>
+
+			</select><p>
+			<input type="submit" value="Guardar">
+		</form>
+	</div>	
+			
+			</div>
+			</fieldset>
+			
+	</td>
+	</tr>
+	</table>
+
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">CONTACTOS</a></li>
+		</ul>		
+	</div>
+   
+	<div data-role="footer">
+		<h4>ADRY, MARY & MELI</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>CONTACTOS</h1>
+             <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK</a>
+	</div>
+  
+	<div data-role="content">	
+		Contactos:
+        
+	</div>
+    
+	<div data-role="footer">
+		<h4>ADRY, MARY & MELI</h4>
+      
+	</div>
+</div>
+</body>
+</html>
